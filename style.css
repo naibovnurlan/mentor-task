@@ -15,12 +15,12 @@ nav ul li{
     list-style: none;
 }
 header{
-    width: 100%;
-    
-    min-height: 3rem;
-    box-shadow: 10px;
-    
-
+    width: 100%;    
+    min-height: 48px;
+    box-shadow: 0 4px 6px -1px rgba(56, 68, 143, 1);
+    position: fixed;
+    background-color: white;
+    z-index: 2;
 }
 nav ul li a{
     text-decoration: none;
@@ -164,8 +164,36 @@ button{
     min-height: 50px;
 }
 footer{
-    min-height: 80px;
-    width: 100%;
+    min-height: 100px;
+    background-color: grey;
+    text-align: center;
+    padding-top:50px;
+    clear: both;
+}
+
+main{
+    margin-bottom: 200px;
+    
 }
 
 
+footer a{
+    color: black;
+}
+footer a:hover{
+    color: rgb(67, 170, 26);
+}
+.bgimg{
+    position: relative;
+    background-image: url(./images/hamburger.jpg);
+    background-repeat: no-repeat;
+   
+}
+.bgimg p{
+    position:absolute;
+    left: 20px;
+    bottom: 20px;
+    font-size: 3rem;
+    font-weight: normal;
+    letter-spacing: 5px;
+}
